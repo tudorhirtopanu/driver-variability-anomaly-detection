@@ -1,0 +1,492 @@
+{
+  "seed": 88,
+  "num_splits_per_config": 10,
+  "splits": {
+    "3": [
+      {
+        "train_drivers": [
+          "D",
+          "F",
+          "G"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "C",
+          "I"
+        ],
+        "unseen_drivers": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "C",
+          "F",
+          "H"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "G",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "B",
+          "C",
+          "D"
+        ],
+        "unseen_drivers": [
+          "A",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "C",
+          "H",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I"
+        ]
+      },
+      {
+        "train_drivers": [
+          "F",
+          "G",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "H",
+          "I"
+        ]
+      },
+      {
+        "train_drivers": [
+          "C",
+          "E",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "D",
+          "F",
+          "G",
+          "H",
+          "I"
+        ]
+      },
+      {
+        "train_drivers": [
+          "B",
+          "F",
+          "H"
+        ],
+        "unseen_drivers": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "G",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "C",
+          "D"
+        ],
+        "unseen_drivers": [
+          "B",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "D",
+          "H",
+          "I"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "J"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "train_drivers": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "unseen_drivers": [
+          "B",
+          "G",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "D",
+          "G",
+          "H",
+          "I"
+        ],
+        "unseen_drivers": [
+          "B",
+          "C",
+          "E",
+          "F",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "D",
+          "E",
+          "G",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "H"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "H"
+        ],
+        "unseen_drivers": [
+          "E",
+          "F",
+          "G",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "C",
+          "F",
+          "G",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "H"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "G"
+        ],
+        "unseen_drivers": [
+          "D",
+          "F",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "B",
+          "C",
+          "E",
+          "F",
+          "G"
+        ],
+        "unseen_drivers": [
+          "A",
+          "D",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "unseen_drivers": [
+          "B",
+          "C",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "E",
+          "F",
+          "G",
+          "H",
+          "I"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "C",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F"
+        ]
+      }
+    ],
+    "7": [
+      {
+        "train_drivers": [
+          "A",
+          "C",
+          "D",
+          "F",
+          "G",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "B",
+          "E",
+          "H"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "J"
+        ],
+        "unseen_drivers": [
+          "B",
+          "F",
+          "I"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "C",
+          "D",
+          "F",
+          "G",
+          "H",
+          "J"
+        ],
+        "unseen_drivers": [
+          "B",
+          "E",
+          "I"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "G",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "D",
+          "F",
+          "H"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "B",
+          "D",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "C",
+          "E",
+          "F"
+        ]
+      },
+      {
+        "train_drivers": [
+          "C",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "H",
+          "I",
+          "J"
+        ],
+        "unseen_drivers": [
+          "D",
+          "F",
+          "G"
+        ]
+      },
+      {
+        "train_drivers": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "H",
+          "J"
+        ],
+        "unseen_drivers": [
+          "A",
+          "G",
+          "I"
+        ]
+      },
+      {
+        "train_drivers": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I"
+        ],
+        "unseen_drivers": [
+          "A",
+          "C",
+          "J"
+        ]
+      },
+      {
+        "train_drivers": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "I"
+        ],
+        "unseen_drivers": [
+          "B",
+          "H",
+          "J"
+        ]
+      }
+    ]
+  }
+}

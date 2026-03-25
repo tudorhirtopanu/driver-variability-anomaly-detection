@@ -1,0 +1,19 @@
+filename,driver,anomaly,details,start_idx,end_idx
+trip_H_2_1.csv,H,Impossible_Drift,Linear drift -60kpa,1524,1563
+trip_H_2_1.csv,H,Physics_Inversion,Torque inverted vs Pedal,367,387
+trip_H_2_2.csv,H,Active_Freeze,Frozen at 27.3% (Active),2264,2284
+trip_H_2_2.csv,H,Impossible_Drift,Linear drift -60kpa,74,113
+trip_H_1_1.csv,H,Active_Freeze,Frozen at 25.0% (Active),2230,2250
+trip_H_1_1.csv,H,Impossible_Drift,Linear drift -60kpa,954,993
+trip_H_1_1.csv,H,Physics_Inversion,Torque inverted vs Pedal,1431,1451
+trip_H_1_2.csv,H,Impossible_Drift,Linear drift -60kpa,1417,1456
+trip_H_1_2.csv,H,Physics_Inversion,Torque inverted vs Pedal,1183,1203
+trip_F_2_1.csv,F,Impossible_Drift,Linear drift -60kpa,278,317
+trip_F_2_1.csv,F,Physics_Inversion,Torque inverted vs Pedal,824,844
+trip_F_2_2.csv,F,Impossible_Drift,Linear drift -60kpa,603,642
+trip_F_2_2.csv,F,Physics_Inversion,Torque inverted vs Pedal,2092,2112
+trip_F_1_1.csv,F,Active_Freeze,Frozen at 20.7% (Active),1513,1533
+trip_F_1_1.csv,F,Impossible_Drift,Linear drift -60kpa,924,963
+trip_F_1_1.csv,F,Physics_Inversion,Torque inverted vs Pedal,6,26
+trip_F_1_2.csv,F,Impossible_Drift,Linear drift -60kpa,2051,2090
+trip_F_1_2.csv,F,Physics_Inversion,Torque inverted vs Pedal,2147,2167

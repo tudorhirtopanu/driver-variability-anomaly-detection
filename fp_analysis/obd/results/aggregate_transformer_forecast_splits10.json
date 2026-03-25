@@ -1,0 +1,94 @@
+{
+  "num_splits": 10,
+  "split_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "feature_names": [
+    "Engine Coolant Temperature [\u00b0C]",
+    "Intake Manifold Absolute Pressure [kPa]",
+    "Engine RPM [RPM]",
+    "Vehicle Speed Sensor [km/h]",
+    "Intake Air Temperature [\u00b0C]",
+    "Air Flow Rate from Mass Flow Sensor [g/s]",
+    "Ambient Air Temperature [\u00b0C]",
+    "Accelerator Pedal Position D [%]",
+    "Accelerator Pedal Position E [%]"
+  ],
+  "analysis_feature_names": [
+    "Engine Coolant Temperature [\u00b0C]",
+    "Intake Manifold Absolute Pressure [kPa]",
+    "Engine RPM [RPM]",
+    "Vehicle Speed Sensor [km/h]",
+    "Intake Air Temperature [\u00b0C]",
+    "Air Flow Rate from Mass Flow Sensor [g/s]",
+    "Ambient Air Temperature [\u00b0C]",
+    "Accelerator Pedal Position D [%]",
+    "Accelerator Pedal Position E [%]"
+  ],
+  "human_feature_names": [
+    "Accelerator Pedal Position D [%]",
+    "Accelerator Pedal Position E [%]"
+  ],
+  "system_feature_names": [
+    "Engine Coolant Temperature [\u00b0C]",
+    "Intake Manifold Absolute Pressure [kPa]",
+    "Engine RPM [RPM]",
+    "Vehicle Speed Sensor [km/h]",
+    "Intake Air Temperature [\u00b0C]",
+    "Air Flow Rate from Mass Flow Sensor [g/s]",
+    "Ambient Air Temperature [\u00b0C]"
+  ],
+  "ignored_features": [
+    "Absolute Throttle Position [%]"
+  ],
+  "applied_ignored_features": [],
+  "fpr_test_mean": 0.010906545031302253,
+  "fpr_test_std": 0.0009200159603269587,
+  "n_test_windows_mean": 538145.2,
+  "n_fp_windows_mean": 5869.4,
+  "n_nonfp_windows_mean": 532275.8,
+  "valid_fp_splits": 10,
+  "human_fp_mean_mse": 0.46330609917640686,
+  "human_fp_std_mse": 0.032345623367176,
+  "system_fp_mean_mse": 0.08103235960006713,
+  "system_fp_std_mse": 0.005950511022636297,
+  "human_nonfp_mean_mse": 0.0018182407482527196,
+  "human_nonfp_std_mse": 0.00024300869604894067,
+  "system_nonfp_mean_mse": 0.0009431316691916436,
+  "system_nonfp_std_mse": 8.70417516738698e-05,
+  "human_inflation_mean": 258.47280461365835,
+  "human_inflation_std": 32.19206256933099,
+  "system_inflation_mean": 86.34221667749732,
+  "system_inflation_std": 6.882083704963904,
+  "mean_feature_fp_mse": [
+    0.0006140185956610367,
+    0.1683698922395706,
+    0.1428542271256447,
+    0.0005975940148346126,
+    0.05514410622417927,
+    0.1990511268377304,
+    0.000595563639944885,
+    0.8860608160495758,
+    0.04055138565599918
+  ],
+  "mean_feature_nonfp_mse": [
+    9.616052484489046e-05,
+    0.0019676354946568607,
+    0.001337254187092185,
+    0.00020429160504136233,
+    0.0005366196215618402,
+    0.0023872475838288667,
+    7.271269678312819e-05,
+    0.0028472408652305604,
+    0.0007892406021710486
+  ]
+}

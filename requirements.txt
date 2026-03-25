@@ -1,0 +1,6 @@
+numpy
+nflows
+pandas
+scikit-learn
+torch
+tqdm

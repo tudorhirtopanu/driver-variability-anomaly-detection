@@ -1,0 +1,60 @@
+{
+  "run_id": "stage2__train_AD_val_B_test_C__h192_l2",
+  "stage": "stage2",
+  "split": {
+    "train": [
+      "A",
+      "D"
+    ],
+    "val": [
+      "B"
+    ],
+    "test": [
+      "C"
+    ]
+  },
+  "params": {
+    "--lookback": "20",
+    "--pretrain-forecaster-epochs": "50",
+    "--pretrain-marginal-epochs": "40",
+    "--gate-epochs": "100",
+    "--early-stop-patience": "10",
+    "--early-stop-min-delta": "0.001",
+    "--lr": "7e-4",
+    "--hidden-dim": "192",
+    "--num-layers": "2",
+    "--dropout": "0.1",
+    "--use-mixture-nll": "",
+    "--include-gaussian-const": "",
+    "--allow-calibration-with-mixture": "",
+    "--marginal-b-l2": "1e-5",
+    "--gate-l1": "0.0001",
+    "--gate-aux-weight": "0.05",
+    "--gate-aux-temp": "1.0",
+    "--gate-aux-margin": "0.0",
+    "--seed": "42",
+    "--batch-size": "64",
+    "--num-workers": "0"
+  },
+  "summary": {
+    "all_quantiles_pass": false,
+    "penalty": 0.01380813953488372,
+    "per_quantile": [
+      {
+        "quantile": "0.99",
+        "gated": 0.01567691029900332,
+        "gaussian": 0.002180232558139535,
+        "mse": 0.021906146179401995,
+        "gated_best": false
+      },
+      {
+        "quantile": "0.999",
+        "gated": 0.0012458471760797341,
+        "gaussian": 0.0009343853820598007,
+        "mse": 0.004671926910299004,
+        "gated_best": false
+      }
+    ]
+  },
+  "status": "complete"
+}
