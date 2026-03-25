@@ -35,7 +35,7 @@ For false-positive study runs:
 ## Docs
 
 - [`docs/experiments.md`](docs/EXPERIMENTS.md): brief run instructions
-- [`ARTIFACTS.md`](ARTIFACTS.md): what saved outputs mean
+- [`ARTIFACTS.md`](docs/ARTIFACTS.md): what saved outputs mean
 
 ## Datasets
 
